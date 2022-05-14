@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #41454d;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+  }
+  
+  header a {
+    color: #fce138;
+  }
+
+  body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+
+  footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  footer a {
+    color: #024e76;
+  }
+
+  /* Hero Style Start */
+.hero {
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0066%2F4574%2F3686%2Ffiles%2FBlue_Architecture_Pattern_LinkedIn_Background_Photo.png%3Fv%3D1627912075&imgrefurl=https%3A%2F%2Fwww.resumepilots.com%2Fblogs%2Fcareer-advice%2Flinkedin-background-photos&tbnid=9VBwW5GyLh07pM&vet=12ahUKEwj9nYmk2dv3AhUPlWoFHUqlCxsQMygmegUIARCVAg..i&docid=zaslGC1jIV7ljM&w=1584&h=396&q=non%20copyright%20professional%20background%20images&hl=en&client=safari&ved=2ahUKEwj9nYmk2dv3AhUPlWoFHUqlCxsQMygmegUIARCVAg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
