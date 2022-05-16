@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-
+/*this applies applies color and font size to the text as well as the background color to the entire page unless told other wise by the specific style rules below*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -16,7 +16,8 @@ p {
 body {
     background-color: #d9dcd6;
 }
-
+/* stye for header section*/
+/* applies font style and color. as well as background color and padding to the header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +51,8 @@ body {
     margin-left: 25px;
 }
 
+/*style for hero section*/
+
 .hero {
     height: 800px;
     width: 100%;
@@ -69,11 +72,15 @@ body {
     margin-left: 25px;
 }
 
+/* style for contect section*/
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* this positions the content section. as well as apply color and font to the text. it also applies the background color*/
 
 .content-section {
     margin-bottom: 20px;
@@ -93,6 +100,8 @@ body {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* style for benefits sections*/
 
 .benefits {
     margin-right: 20px;
@@ -120,6 +129,8 @@ body {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* style for footer*/
 
 .footer {
     padding: 30px;
